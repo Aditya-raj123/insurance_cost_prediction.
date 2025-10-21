@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insurance Cost Predictor</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <script defer src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+<body>
+  <div class="container fade-in">
+    <h1 class="title">💡 Insurance Cost Predictor</h1>
+    <p class="subtitle">Estimate your insurance charges with a single click</p>
+
+    <form method="POST" action="/" class="prediction-form" id="predictForm">
+      <div class="form-group slide-up">
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" required>
+      </div>
+
+      <div class="form-group slide-up">
+        <label for="sex">Sex:</label>
+        <select name="sex" id="sex" required>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </div>
+
+      <div class="form-group slide-up">
+        <label for="bmi">BMI:</label>
+        <input type="number" name="bmi" id="bmi" step="0.1" required>
+      </div>
+
+      <div class="form-group slide-up">
+        <label for="children">Children:</label>
+        <input type="number" name="children" id="children" required>
+      </div>
+
+      <div class="form-group slide-up">
+        <label for="smoker">Smoker:</label>
+        <select name="smoker" id="smoker" required>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+
+      <div class="form-group slide-up">
+        <label for="region">Region:</label>
+        <select name="region" id="region" required>
+          <option value="southwest">Southwest</option>
+          <option value="southeast">Southeast</option>
+          <option value="northwest">Northwest</option>
+          <option value="northeast">Northeast</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn" id="predictBtn">🔮 Predict</button>
+      <div id="loader" class="loader hidden"></div>
+    </form>
+
+    {% if prediction %}
+      <div class="result-card pop-in">
+        <h2>Predicted Insurance Cost 💰</h2>
+        <p id="result">${{ prediction }}</p>
+      </div>
+    {% endif %}
+  </div>
+
+  <div id="successPopup" class="popup hidden">
+    <div class="popup-content">
+      <h3>Prediction Successful!</h3>
+      <p>Your result has been generated 🎉</p>
+      <button id="closePopup">OK</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Insurance Predictor | Built with ❤️ using Flask & ML</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,46 @@
+2025-10-21 15:36:52,030 - INFO - Data ingestion directories created.
+2025-10-21 15:36:52,030 - INFO - Starting data ingestion process.
+2025-10-21 15:36:52,047 - INFO - Raw data read successfully from C:\Users\KIIT\Desktop\insurance_cost_prediction\data\raw\insurance.csv.
+2025-10-21 15:36:52,053 - INFO - Ingested data saved to C:\Users\KIIT\Desktop\insurance_cost_prediction\artifacts\train.csv.
+2025-10-21 15:40:21,648 - INFO - Data ingestion directories created.
+2025-10-21 15:40:21,648 - INFO - Starting data ingestion process.
+2025-10-21 15:40:21,654 - INFO - Raw data read successfully from C:\Users\KIIT\Desktop\insurance_cost_prediction\data\raw\insurance.csv.
+2025-10-21 15:40:21,664 - INFO - Ingested data saved to C:\Users\KIIT\Desktop\insurance_cost_prediction\artifacts\train.csv.
+2025-10-21 15:47:20,761 - INFO - Data ingestion directories created.
+2025-10-21 15:47:20,761 - INFO - Starting data ingestion process.
+2025-10-21 15:47:20,771 - INFO - Raw data read successfully from C:\Users\KIIT\Desktop\insurance_cost_prediction\data\raw\insurance.csv.
+2025-10-21 15:47:20,783 - INFO - Ingested data saved to C:\Users\KIIT\Desktop\insurance_cost_prediction\artifacts\train.csv.
+2025-10-21 15:49:16,317 - INFO - Data ingestion directories created.
+2025-10-21 15:49:16,317 - INFO - Starting data ingestion process.
+2025-10-21 15:49:16,322 - INFO - Raw data read successfully from C:\Users\KIIT\Desktop\insurance_cost_prediction\data\raw\insurance.csv.
+2025-10-21 15:49:16,329 - INFO - Ingested data saved to C:\Users\KIIT\Desktop\insurance_cost_prediction\artifacts\train.csv.
+2025-10-21 19:54:42,197 - INFO - Data ingestion directories created.
+2025-10-21 19:54:42,197 - INFO - Starting data ingestion process.
+2025-10-21 19:54:42,211 - INFO - Raw data read successfully from C:\Users\KIIT\Desktop\insurance_cost_prediction\data\raw\insurance.csv.
+2025-10-21 19:54:42,218 - INFO - Ingested data saved to C:\Users\KIIT\Desktop\insurance_cost_prediction\artifacts\train.csv.
+2025-10-21 20:11:12,330 - INFO - Data transformation directories created.
+2025-10-21 20:11:12,330 - INFO - Initiating data transformation...
+2025-10-21 20:11:12,358 - INFO - Data loaded successfully.
+2025-10-21 20:11:12,363 - INFO - Feature engineering completed.
+2025-10-21 20:11:12,413 - INFO - Transformed data saved to C:\Users\KIIT\Desktop\insurance_cost_prediction\artifacts\all_processed.csv.
+2025-10-21 20:11:12,416 - INFO - Preprocessor object saved to C:\Users\KIIT\Desktop\insurance_cost_prediction\artifacts\preprocessor.pkl.
+2025-10-21 20:16:22,686 - INFO - Starting model training...
+2025-10-21 20:16:22,701 - INFO - Processed data loaded successfully.
+2025-10-21 20:16:22,705 - INFO - Model training completed.
+2025-10-21 20:16:22,707 - INFO - Trained model saved to C:\Users\KIIT\Desktop\insurance_cost_prediction\models\best_insurance_model.pkl.
+2025-10-21 20:19:17,227 - INFO - Training pipeline started
+2025-10-21 20:19:17,228 - INFO - Data ingestion directories created.
+2025-10-21 20:19:17,228 - INFO - Starting data ingestion process.
+2025-10-21 20:19:17,235 - INFO - Raw data read successfully from C:\Users\KIIT\Desktop\insurance_cost_prediction\data\raw\insurance.csv.
+2025-10-21 20:19:17,252 - INFO - Ingested data saved to C:\Users\KIIT\Desktop\insurance_cost_prediction\artifacts\train.csv.
+2025-10-21 20:19:17,253 - INFO - Data transformation directories created.
+2025-10-21 20:19:17,254 - INFO - Initiating data transformation...
+2025-10-21 20:19:17,306 - INFO - Data loaded successfully.
+2025-10-21 20:19:17,308 - INFO - Feature engineering completed.
+2025-10-21 20:19:17,329 - INFO - Transformed data saved to C:\Users\KIIT\Desktop\insurance_cost_prediction\artifacts\all_processed.csv.
+2025-10-21 20:19:17,332 - INFO - Preprocessor object saved to C:\Users\KIIT\Desktop\insurance_cost_prediction\artifacts\preprocessor.pkl.
+2025-10-21 20:19:17,332 - INFO - Starting model training...
+2025-10-21 20:19:17,346 - INFO - Processed data loaded successfully.
+2025-10-21 20:19:17,349 - INFO - Model training completed.
+2025-10-21 20:19:17,350 - INFO - Trained model saved to C:\Users\KIIT\Desktop\insurance_cost_prediction\models\best_insurance_model.pkl.
+2025-10-21 20:19:17,350 - INFO - Training pipeline completed successfully
